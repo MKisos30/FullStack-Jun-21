@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- hamburger -->
+        <div id="hamburger">
+            <div id="barMenu">
+                <i class="fas fa-bars" id="bar" class="bar"></i>
+            </div>
+            <ul class="menu" id="menu">
+                <li><a href="#">Home page</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Our blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="bg" id="bg"></div>
+    </header>
+
+    <!-- user information -->
+    <form method="GET" id="user">
+        <!-- <name -->
+        <label for="full name">full name</label>
+        <input type="text" name="full name" placeholder="please enter your full name" class="fill"><br>
+        <!-- phone nomber -->
+        <label for="phone nomber">phone number</label>
+        <input type="number" name="phone number" placeholder="please enter your phone number" class="fill"><br>
+        <!-- email -->
+        <label for="email">email</label>
+        <input type="em" name="email" placeholder="please enter your email" class="fill"><br>
+        <!--age-->
+        <label for="age">how old are you?</label>
+        <input type="number" name="age" placeholder="please enter your age" class="fill" id="my-form"><br>
+        <!-- button -->
+        <input type="button" value="add to list" id="detalis">
+    </form>
+    <div id="list">
+        <label for="name" class="print">Name:</label><br>
+        <label for="phone number" class="print">Phone number:</label><br>
+        <label for="email" class="print">Email:</label><br>
+    </div>
+    <span>
+        <img src="img.jpg" alt="dog picture" id="ageImg" width="200px">
+    </span>
+    <script src="script.js"></script>
+</body>
+</html>

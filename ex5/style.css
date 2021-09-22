@@ -1,0 +1,110 @@
+body{
+    font-family: nike combat stencil;
+    font-size: 14;
+}
+
+#barMenu{
+    width: 2.5rem;
+    height: 2rem;
+    margin: 2rem 0 1.4rem 1.4rem;
+    cursor: pointer;
+}
+
+.bar{
+    width: 2.8rem;
+    height: 0.3.5rem;
+    background: linear-gradient(to right, rbg(255,44,167), #234bff);
+    display: block;
+    margin-top: 0.3.5rem;
+    border-radius: 2.8rem;
+    transition: .5s ease;
+}
+
+#bar{
+    transform: translateY(-4px);
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.menu li a:hover{
+    font-weight: bold;
+}
+
+.menu li{
+    list-style: none;
+    padding: 1rem;
+}
+
+.menu{
+    padding: 0;
+    margin: 0 1.4rem;
+    display: none;
+    transition: .6s ease;
+}
+
+.bg,
+#hamburger{
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.bg{
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 2.1rem 0 1.4rem 1.4rem;
+    background: linear-gradient(to bottom left, #04b80d, #c5c2c4);
+    border-bottom-left-radius: 2rem;
+    transition: .6s ease;
+}
+
+#hamburger{
+    z-index: 2;
+}
+
+.change-bg{
+    width: 25rem;
+    height: 30rem;
+    border-radius: 2rem;
+    transform: translate(-60%, -30%);
+}
+
+.change .bar{
+    background: #fff;
+}
+
+.change #bar{
+    transform: translateY(0.3.5rem) rotateZ(-45deg);
+}
+
+.change #bar{
+    transform: translateY(-0.5rem) rotateZ(-45deg);
+}
+
+.change #bar{
+    opacity: 0;
+}
+
+.change{
+    display: block;
+}
+
+/* form */
+#user{
+    margin-top: 5rem;
+}
+.fill{
+    margin-bottom: 0.8rem;
+}
+#list{
+    margin-top: 1.4rem;
+}
+
+#ageImg{
+    display: none;
+}
