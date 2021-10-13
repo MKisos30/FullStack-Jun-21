@@ -1,0 +1,312 @@
+/* mobile */
+html {
+    font-family: 'kaisei decol', 'tahoma', 'sans-serif';
+    font-size: 14px;   
+}
+
+body {
+    margin: 0 auto;
+}
+
+#header-cover {
+    background-image: url(img/top-cover-mobile.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2mm;
+    height: 28.3rem;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+#title {
+    display: inline-block;
+    font-size: 3.5rem;
+    color: white;
+}
+
+.buttons {
+    justify-content: space-around;
+    display: flex;
+    width: 25rem;
+    margin: 0 auto;
+    margin-top: 4.5rem;
+}
+
+.button {
+    font-size: 1.4rem;
+    color: white;
+    background-color: orangered;
+    width: 9.2rem;
+    height: 4rem;
+    display: inline-block;
+    text-align: center; 
+    border-radius: 0.5rem;
+}
+
+.shop {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Perfume {
+    display: inline-block;
+    margin: 2rem 1rem;
+    text-align: center;
+}
+
+.perfumeType {
+    display: block;
+    color: #A7A7A7;
+    font-size: 0.7rem;
+}
+
+.PerfumeName {
+    display: block;
+    color: #000000;
+    font-size: 1rem;
+}
+
+.lastPrice {
+    color: #000000;
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+
+.newPrice {
+    text-decoration: none;
+    color: orangered;
+    font-size: 1rem;
+}
+
+.design {
+    display: block;
+    color: #000000;
+    font-size: 0.7rem;
+}
+
+#shopping {
+    background-color: orangered;
+    color: white;
+    width: 10rem;
+    height: 3.2rem;
+    font-size: 1.5rem;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+    margin: 2.5rem;
+    margin-left: 8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bottom-cover {
+    background-image: url(Img/botoom-cover-mobile.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    height: 30rem;
+    margin: 0;
+    text-align: center;
+}
+
+#bottomTitle {
+    font-size: 3rem;
+    line-height: 5rem;
+    margin-top: 2.5rem;
+    color: white;
+}
+
+#support {
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: white;
+}
+
+#workShop {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+    background-color: orangered;
+    color: white;
+    border-radius: 0.2rem;
+    border-top: 1rem;
+}
+
+
+/* hamburger */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    width: 20rem;
+    height: 30rem;
+    background-color: rgb(22, 20, 20);
+    position: fixed;
+    top: 0;
+    right: -21.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20% 0 0 30%;
+    transition: right 0.8s cubic-bezier(1, 0, 0, 1);
+}
+
+.change {
+    right: 0;
+}
+
+.menuBar {
+    width: 2.5rem;
+    height: 2.2rem;
+    position: fixed;
+    top: 1.8rem;
+    right: 1.8rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line {
+    width: 100%;
+    height: 0.2rem;
+    background-color: chocolate;
+    transition: all 0.8s;
+}
+
+.change .line1 {
+    transform: rotateZ(-45deg) translate(-0.6rem, 0.8rem);
+}
+
+.change .line2 {
+    opacity: 0;
+}
+
+.change .line3 {
+    transform: rotateZ(45deg) translate(-0.6rem, -0.8rem);
+}
+
+.list {
+    text-align: right;
+}
+
+.listItems {
+    list-style: none;
+    margin: 1.8rem;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* whatsapp */
+.icon {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    bottom: 2.8rem;
+    right: 79%;
+    top: 34rem;
+    background-color: #25d366;
+    border-radius: 3.5rem;
+    text-align: center;
+    font-size: 2.1rem;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.whatsapp-icon {
+    margin-top: 1.1rem;
+}
+
+.fab.fa-whatsapp {
+    margin-top: 0.7rem;
+    font-size: 2.6rem;
+    color: #fff;
+}
+
+
+/* desktop */
+@media only screen and ( min-width: 1024px ) {
+#header-cover {
+    background-image: none;
+    background-color: grey;
+}
+
+#title {
+    font-size: 4.2rem;
+}
+
+.Perfume {
+    display: inline-block;
+    margin: 2rem 1rem;
+    text-align: left;
+}
+
+.menu{
+    width: 21.5rem;
+    height: 45rem;
+}
+
+.menuBar {
+    top: 2rem;
+    right: 2rem;
+}
+
+.buttons {
+    margin-left: 2rem;
+    display: block;
+    margin: 0.8rem;
+}
+
+.button {
+    font-size: 1.1rem;
+    height: 3rem;
+    margin-top: 8rem;
+    margin-left: 1.5rem;
+}
+
+#shopping {
+    margin-left: 45%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+#bottom-cover {
+    background-image: url(Img/botoom-cover-desktop.jpeg);
+}
+
+.link:hover {
+    text-decoration: none;
+    font-size: 2rem;
+    color: green;
+    font-weight: 21.5rem;
+}
+
+.icon {
+    right: 92%;
+    top: 80%;
+    width: 5rem;
+    height: 5rem;
+    font-size: 2.8rem;
+    cursor: pointer;
+    background-color: #25d366;
+}
+
+.fab.fa-whatsapp {
+    font-size: 3.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+}
+
+
